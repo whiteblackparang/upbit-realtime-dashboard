@@ -7,7 +7,7 @@ Upbit Real-time Data Pipeline & Risk Monitoring Dashboard
 이 프로젝트는 "현재 시장을 실시간으로 수집·분석·경보"하는 운영 관점의 데이터 파이프라인입니다.
 
 ## 아키텍처
-
+```
 GitHub Actions (5분 주기 스케줄)
 │
 ▼
@@ -21,7 +21,7 @@ SQL 분석 쿼리 (급등/변동성/거래량 랭킹)
 │
 ▼
 Streamlit 대시보드 (실시간 조회 화면)
-
+```
 ## 모니터링 대상
 업비트 원화마켓 주요 10개 코인: BTC, ETH, XRP, SOL, DOGE, ADA, AVAX, TRX, LINK, DOT
 
